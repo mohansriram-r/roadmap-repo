@@ -11,9 +11,19 @@ class CTextTheme {
       color: CColors.secondaryColor,
     ),
     headlineSmall: const TextStyle().copyWith(
-      fontSize: 18,
+      fontSize: 17,
       fontWeight: FontWeight.normal,
       color: CColors.secondaryColor,
+    ),
+    labelSmall: const TextStyle().copyWith(
+      fontSize: 16,
+      fontWeight: FontWeight.w600,
+      color: CColors.secondaryColor,
+    ),
+    labelMedium: const TextStyle().copyWith(
+      fontSize: 16,
+      fontWeight: FontWeight.w600,
+      color: CColors.primaryColor,
     ),
   );
 }
