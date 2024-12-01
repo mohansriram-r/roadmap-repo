@@ -6,6 +6,7 @@ class CThemeData {
 
   static ThemeData lightThemeData = ThemeData(
     useMaterial3: true,
+    fontFamily: 'Poppins',
     textTheme: CTextTheme.lightTextTheme,
   );
 }
