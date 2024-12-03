@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:roadmap_app/utils/constants/colors.dart';
+import 'package:roadmap_app/utils/constants/image_strings.dart';
 import 'package:roadmap_app/utils/constants/text_strings.dart';
 
 class StratScreen extends StatelessWidget {
@@ -12,6 +13,7 @@ class StratScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image.asset(CImageStrings.startScreenImage),
             Text(
               CTextStrings.appName,
               style: Theme.of(context).textTheme.headlineLarge,

@@ -65,6 +65,7 @@ flutter:
     - assets/icons/google.svg
     - assets/icons/github.svg
     - assets/icons/email.svg
+    - assets/images/startscreen.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
