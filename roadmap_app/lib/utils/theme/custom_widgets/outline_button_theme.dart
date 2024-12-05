@@ -8,6 +8,9 @@ class COutlineButtonTheme {
     style: OutlinedButton.styleFrom(
       side: const BorderSide(width: 2, color: Colors.black),
       alignment: Alignment.center,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
     ),
   );
 }

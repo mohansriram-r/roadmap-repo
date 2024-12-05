@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:roadmap_app/screens/create_account/create_account_screen.dart';
+import 'package:roadmap_app/screens/login/login_screen.dart';
 import 'package:roadmap_app/screens/start/strat_screen.dart';
 import 'package:roadmap_app/utils/theme/theme.dart';
 
@@ -10,9 +11,9 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: CThemeData.lightThemeData,
-      home: const StratScreen(),
+      home: LoginScreen(),
     );
   }
 }
