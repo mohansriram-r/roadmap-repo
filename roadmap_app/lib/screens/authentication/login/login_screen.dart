@@ -2,8 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:roadmap_app/screens/common_widgets/text_field.dart';
-import 'package:roadmap_app/screens/login/custom_widget/icon_login.dart';
+import 'package:roadmap_app/screens/authentication/common_widgets/outline_button.dart';
+import 'package:roadmap_app/screens/authentication/common_widgets/text_field.dart';
+import 'package:roadmap_app/screens/authentication/login/custom_widget/icon_login.dart';
 import 'package:roadmap_app/utils/constants/colors.dart';
 import 'package:roadmap_app/utils/constants/icon_strings.dart';
 import 'package:roadmap_app/utils/constants/text_strings.dart';
@@ -16,7 +17,6 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: CColors.primaryColor,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -62,17 +62,9 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              OutlinedButton(
-                onPressed: () {},
-                style: OutlinedButton.styleFrom(
-                  fixedSize: const Size(350, 60),
-                  backgroundColor: CColors.secondaryColor,
-                  foregroundColor: CColors.primaryColor,
-                ),
-                child: Text(
-                  "Log In",
-                  style: Theme.of(context).textTheme.labelMedium,
-                ),
+              COutlineButton(
+                text: "Log in",
+                onTap: () {},
               ),
               const SizedBox(
                 height: 50,

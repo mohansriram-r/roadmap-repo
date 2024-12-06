@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:roadmap_app/screens/create_account/custom_widget/ca_outline_button.dart';
-import 'package:roadmap_app/utils/constants/icon_strings.dart';
+import 'package:roadmap_app/screens/authentication/common_widgets/outline_button.dart';
+import 'package:roadmap_app/utils/constants/colors.dart';
+import 'package:roadmap_app/utils/constants/image_strings.dart';
 import 'package:roadmap_app/utils/constants/text_strings.dart';
 
-class CreateAccountScreen extends StatelessWidget {
-  const CreateAccountScreen({super.key});
+class StratScreen extends StatelessWidget {
+  const StratScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,6 +14,7 @@ class CreateAccountScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image.asset(CImageStrings.startScreenImage),
             Text(
               CTextStrings.appName,
               style: Theme.of(context).textTheme.headlineLarge,
@@ -24,24 +26,18 @@ class CreateAccountScreen extends StatelessWidget {
             const SizedBox(
               height: 50,
             ),
-            CAOutlineButton(
-              icon: CIconStrings.googleIcon,
-              title: "Continue with Google",
+            COutlineButton(
+              text: "Log in",
+              onTap: () {},
             ),
             const SizedBox(
               height: 10,
             ),
-            CAOutlineButton(
-              icon: CIconStrings.gitHubIcon,
-              title: "Continue with GitHub",
+            COutlineButton(
+              text: "Create account",
+              onTap: () {},
+              isBlack: false,
             ),
-            const SizedBox(
-              height: 10,
-            ),
-            CAOutlineButton(
-              icon: CIconStrings.emailIcon,
-              title: "Continue with Email",
-            )
           ],
         ),
       ),

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547908815045",
+    "project_id": "roadmap-app-61c7a",
+    "storage_bucket": "roadmap-app-61c7a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547908815045:android:b143f85aa3e08d083bc8ac",
+        "android_client_info": {
+          "package_name": "com.example.roadmap_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWAGnISXyhaIDmbc4ePr5EEJ-Cs8WLZuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

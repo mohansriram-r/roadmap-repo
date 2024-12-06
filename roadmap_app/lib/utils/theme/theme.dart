@@ -12,5 +12,6 @@ class CThemeData {
     textTheme: CTextTheme.lightTextTheme,
     outlinedButtonTheme: COutlineButtonTheme.lightoutlinedButtonTheme,
     primaryColor: CColors.primaryColor,
+    scaffoldBackgroundColor: CColors.primaryColor,
   );
 }
